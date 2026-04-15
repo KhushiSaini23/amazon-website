@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/category.css">
+    <link rel="stylesheet" href="../css/shop-flow.css">
+</head>
+<body>
+    <header style="background-color: black;" class="text-white py-2">
+        <div class="container d-flex align-items-center justify-content-between">
+            <a href="../clone.html"><img src="../assets/images/Amazon.jpg" width="100" alt="Amazon"></a>
+            <div class="d-flex align-items-center">
+                <div class="text-light me-3">
+                    <small>Delivering to Chandigarh 160003</small>
+                    <strong> Update location</strong>
+                </div>
+                <div class="input-group w-50">
+                    <select class="form-select">
+                        <option>All</option>
+                        <option>Mobiles</option>
+                        <option>Electronics</option>
+                        <option selected>Fashion</option>
+                    </select>
+                    <input type="text" class="form-control" placeholder="Search Fashion">
+                    <button class="btn btn-warning">Search</button>
+                </div>
+                <a class="header-cart-link ms-3" href="../cart.html">Cart <span class="header-cart-count" data-cart-count>0</span></a>
+            </div>
+        </div>
+    </header>
+
+    <nav style="background-color: #232f3e;" class="py-2">
+        <div class="container d-flex flex-wrap">
+            <a href="../clone.html" class="btn btn-link text-white me-2">Home</a>
+            <a href="mobiles.html" class="btn btn-link text-white me-2">Mobiles</a>
+            <a href="electronics.html" class="btn btn-link text-white me-2">Electronics</a>
+            <a href="fashion.html" class="btn btn-link text-white me-2">Fashion</a>
+            <a href="customer-service.html" class="btn btn-link text-white me-2">Customer Service</a>
+        </div>
+    </nav>
+
+    <main class="container category-shell">
+        <section class="category-hero category-hero-fashion">
+            <h1>Fashion Edit</h1>
+            <p>Discover stylish men's and women's outfits, smart casual picks, festive looks and everyday wardrobe staples with a polished shopping experience.</p>
+        </section>
+
+        <section class="category-strip">
+            <div class="category-pill"><span class="label">Women's Style</span><span class="value">Dresses &amp; Tops</span></div>
+            <div class="category-pill"><span class="label">Men's Wear</span><span class="value">Shirts &amp; Jackets</span></div>
+            <div class="category-pill"><span class="label">Trending</span><span class="value">Summer fits</span></div>
+            <div class="category-pill"><span class="label">Offers</span><span class="value">Flat 50% off</span></div>
+        </section>
+
+        <section class="category-layout">
+            <aside class="category-sidebar">
+                <h3>Style filters</h3>
+                <div class="category-filter">
+                    <span class="filter-chip">Women's dresses</span>
+                    <span class="filter-chip">Men's shirts</span>
+                    <span class="filter-chip">Casual</span>
+                    <span class="filter-chip">Partywear</span>
+                    <span class="filter-chip">Footwear</span>
+                    <span class="filter-chip">Accessories</span>
+                </div>
+            </aside>
+
+            <div class="category-content">
+                <div class="section-heading">
+                    <div>
+                        <h2>Men's and Women's Fashion</h2>
+                        <p>Curated dummy collection with a more premium fashion UI.</p>
+                    </div>
+                </div>
+
+                <div class="product-grid">
+                    <article class="product-card">
+                        <div class="product-media"><span class="product-badge">Women's Pick</span><img class="product-image" src="../assets/images/fashion-1.jpeg" alt="Floral Midi Dress"></div>
+                        <div class="product-body"><h3>Floral Midi Dress</h3><div class="product-meta">Soft fabric, elegant silhouette and summer-ready print.</div><div class="product-price"><strong>Rs. 1,899</strong><span>40% off</span></div><button class="shop-button add-cart-btn" type="button" data-id="fashion-floral-midi-dress" data-name="Floral Midi Dress" data-category="Fashion" data-description="Soft fabric, elegant silhouette and summer-ready print." data-price="1899" data-art-class="art-fashion-1" data-art-icon="👗" data-badge="Women's Pick">Add to cart</button></div>
+                    </article>
+                    <article class="product-card">
+                        <div class="product-media"><span class="product-badge">Men's Pick</span><img class="product-image" src="../assets/images/fashion-2.jpeg" alt="Tailored Oxford Shirt"></div>
+                        <div class="product-body"><h3>Tailored Oxford Shirt</h3><div class="product-meta">Crisp fit shirt for office, brunch and evening plans.</div><div class="product-price"><strong>Rs. 1,499</strong><span>35% off</span></div><button class="shop-button add-cart-btn" type="button" data-id="fashion-tailored-oxford-shirt" data-name="Tailored Oxford Shirt" data-category="Fashion" data-description="Crisp fit shirt for office, brunch and evening plans." data-price="1499" data-art-class="art-fashion-2" data-art-icon="👔" data-badge="Men's Pick">Add to cart</button></div>
+                    </article>
+                    <article class="product-card">
+                        <div class="product-media"><span class="product-badge">Trending</span><img class="product-image" src="../assets/images/fashion-3.jpeg" alt="Layered Street Jacket"></div>
+                        <div class="product-body"><h3>Layered Street Jacket</h3><div class="product-meta">Modern jacket with a structured fit and premium finish.</div><div class="product-price"><strong>Rs. 2,799</strong><span>30% off</span></div><button class="shop-button add-cart-btn" type="button" data-id="fashion-layered-street-jacket" data-name="Layered Street Jacket" data-category="Fashion" data-description="Modern jacket with a structured fit and premium finish." data-price="2799" data-art-class="art-fashion-3" data-art-icon="🧥" data-badge="Trending">Add to cart</button></div>
+                    </article>
+                    <article class="product-card">
+                        <div class="product-media"><span class="product-badge">Women's Edit</span><img class="product-image" src="../assets/images/fashion-4.jpeg" alt="Classic Handbag Set"></div>
+                        <div class="product-body"><h3>Classic Handbag Set</h3><div class="product-meta">Elegant handbag combo with clean detailing and charm.</div><div class="product-price"><strong>Rs. 2,199</strong><span>33% off</span></div><button class="shop-button add-cart-btn" type="button" data-id="fashion-classic-handbag-set" data-name="Classic Handbag Set" data-category="Fashion" data-description="Elegant handbag combo with clean detailing and charm." data-price="2199" data-art-class="art-fashion-4" data-art-icon="👜" data-badge="Women's Edit">Add to cart</button></div>
+                    </article>
+                    <article class="product-card">
+                        <div class="product-media"><span class="product-badge">Men's Casual</span><img class="product-image" src="../assets/images/fashion-5.jpeg" alt="Everyday Sneaker"></div>
+                        <div class="product-body"><h3>Everyday Sneaker</h3><div class="product-meta">Clean low-top sneaker for everyday wear and travel.</div><div class="product-price"><strong>Rs. 1,999</strong><span>26% off</span></div><button class="shop-button add-cart-btn" type="button" data-id="fashion-everyday-sneaker" data-name="Everyday Sneaker" data-category="Fashion" data-description="Clean low-top sneaker for everyday wear and travel." data-price="1999" data-art-class="art-fashion-5" data-art-icon="👟" data-badge="Men's Casual">Add to cart</button></div>
+                    </article>
+                    <article class="product-card">
+                        <div class="product-media"><span class="product-badge">Festive Wear</span><img class="product-image" src="../assets/images/fashion-6.jpeg" alt="Premium Occasion Set"></div>
+                        <div class="product-body"><h3>Premium Occasion Set</h3><div class="product-meta">Statement outfit for wedding season and special events.</div><div class="product-price"><strong>Rs. 3,499</strong><span>38% off</span></div><button class="shop-button add-cart-btn" type="button" data-id="fashion-premium-occasion-set" data-name="Premium Occasion Set" data-category="Fashion" data-description="Statement outfit for wedding season and special events." data-price="3499" data-art-class="art-fashion-6" data-art-icon="✨" data-badge="Festive Wear">Add to cart</button></div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="cartToast" class="toast-cart"></div>
+    <script src="../js/cart.js"></script>
+</body>
+</html>

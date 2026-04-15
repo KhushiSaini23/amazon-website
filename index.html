@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Sign In</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="auth-page">
+    <main class="auth-main">
+        <a href="index.html" class="auth-logo" aria-label="Amazon home">
+            <img src="assets/images/logo.jpeg" alt="Amazon">
+        </a>
+
+        <section class="auth-card">
+            <h1>Sign in or create account</h1>
+
+            <form id="emailForm">
+                <label class="auth-label" for="email">Enter mobile number or email</label>
+                <input class="auth-input" id="email" name="email" type="text" autocomplete="username" required autofocus>
+                <button class="auth-button" type="submit">Continue</button>
+                <p class="auth-error" id="emailError">Enter your mobile number or email.</p>
+            </form>
+
+            <p class="auth-copy">
+                By continuing, you agree to Amazon's
+                <a href="#">Conditions of Use</a>
+                and
+                <a href="#">Privacy Notice</a>.
+            </p>
+
+            <div class="auth-divider"></div>
+
+            <p class="auth-subheading">Buying for work?</p>
+            <a class="auth-business" href="#">Create a free business account</a>
+        </section>
+    </main>
+
+    <footer class="auth-footer">
+        <div class="auth-footer-links">
+            <a href="#">Conditions of Use</a>
+            <a href="#">Privacy Notice</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="auth-footer-copy">
+            &copy; 1996-2026, Amazon.com, Inc. or its affiliates
+        </div>
+    </footer>
+
+    <script src="js/auth.js"></script>
+</body>
+</html>
